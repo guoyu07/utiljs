@@ -1,0 +1,28 @@
+{
+  "name": "utiljs",
+  "version": "0.0.1",
+  "description": "node.js util module for Fibjs",
+  "main": "utiljs.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngot/utiljs.git"
+  },
+  "keywords": [
+    "fibjs",
+    "fib",
+    "js",
+    "util",
+    "node",
+    "node.js"
+  ],
+  "author": "ngot",
+  "bugs": {
+    "url": "https://github.com/ngot/utiljs/issues"
+  },
+  "homepage": "https://github.com/ngot/utiljs"
+}
