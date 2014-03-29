@@ -39,7 +39,7 @@ assert.equal(true, util.isError(new SyntaxError));
 assert.equal(false, util.isError({}));
 assert.equal(false, util.isError({ name: 'Error', message: '' }));
 assert.equal(false, util.isError([]));
-assert.equal(true, util.isError(Object.create(Error.prototype)));//error ,to be fixed in the future.
+assert.equal(true, util.isError(Object.create(Error.prototype)));//TODO error ,to be fixed in the future.
 
 //"isObject"
 assert.ok(util.isObject({}) === true);
